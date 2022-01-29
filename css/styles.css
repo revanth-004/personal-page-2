@@ -115,3 +115,123 @@ div{
   position: absolute;
   left: 56%;
 }
+@media screen and (max-width: 767px) {
+  body{
+    margin: 0;
+    text-align: center;
+  }
+
+  h1{
+     color: black;
+     font-family: 'Dancing Script', cursive;
+     margin-top: 50px;
+     font-size: 350%;
+  }
+  h2{
+    color: #053742;
+    font-family: 'Dancing Script', cursive;
+    font-size: 250%
+  }
+  h3{
+    color: #39A2DB;
+    font-family: 'Poiret One', cursive;
+    font-size: 170%;
+  }
+  hr{
+    border-style: hidden;
+    background-color: #39A2DB;
+    height: 3px;
+    width: 50%;
+  }
+  p{
+    color: #39A2DB;
+  }
+  div{
+    height: 80vh;
+  }
+  .top{
+    background-color: #BBE1FA;
+    padding-top: 100px;
+    position: relative;
+  }
+
+  .middle1{
+    background-color: #BBE1FA;
+    padding-top: 200px;
+    position: relative;
+  }
+  .middle2{
+    background-color: #BBE1FA;
+    padding-top: 200px;
+    position: relative;
+  }
+  .bottom{
+    height: 55vh;
+    background-color: #39A2DB;
+  }
+  .para-title1{
+    float: right;
+    margin-right: 15%;
+  }
+  .para-title2{
+    float: left;
+    margin-left: 23%;
+  }
+  .para1{
+    color: grey;
+    float: right;
+    font-family: 'IM Fell English', serif;
+    font-size: 1.2em;
+    line-height: 2;
+    margin-right: 10%;
+    text-align: left;
+    width: 40%;
+
+  }
+  .para2{
+    color: grey;
+    float: left;
+    font-family: 'IM Fell English', serif;
+    font-size: 1.2em;
+    line-height: 2;
+    margin-left: 10%;
+    text-align: right;
+    width: 40%;
+  }
+
+  .profile{
+    margin: 100px auto auto auto;
+  }
+
+  .first-img{
+    float: left;
+    margin-left: 8%;
+  }
+  .second-img{
+    float: right;
+    margin-right: 8%;
+  }
+  .contact{
+    padding-top: 90px;
+    color: black;
+    text-align: center;
+  }
+  .email{
+     padding-top: 20px;
+     left: 50px;
+     color: #053742;
+  }
+  .instagram{
+    position: absolute;
+    left: 40%;
+  }
+  .linkedin{
+    position: absolute;
+    left: 48%;
+  }
+  .twitter{
+    position: absolute;
+    left: 56%;
+  }
+}
+
