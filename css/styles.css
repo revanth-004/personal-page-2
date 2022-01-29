@@ -28,74 +28,70 @@ hr{
 p{
   color: #39A2DB;
 }
+div{
+  height: 80vh;
+}
 .top{
   background-color: #BBE1FA;
-  height: 500px;
   padding-top: 100px;
   position: relative;
 }
 
 .middle1{
-  height: 500px;
   background-color: #BBE1FA;
   padding-top: 200px;
   position: relative;
 }
 .middle2{
-  height: 500px;
   background-color: #BBE1FA;
   padding-top: 200px;
   position: relative;
 }
 .bottom{
-  height: 300px;
+  height: 55vh;
   background-color: #39A2DB;
+}
+.para-title1{
+  float: right;
+  margin-right: 15%;
+}
+.para-title2{
+  float: left;
+  margin-left: 23%;
 }
 .para1{
   color: grey;
+  float: right;
   font-family: 'IM Fell English', serif;
-  font-size: 18px;
-  margin-left: 550px;
+  font-size: 1.2em;
+  line-height: 2;
+  margin-right: 10%;
   text-align: left;
   width: 40%;
-  line-height: 2;
+
 }
 .para2{
   color: grey;
+  float: left;
   font-family: 'IM Fell English', serif;
-  font-size: 18px;
-  margin-left: 300px;
+  font-size: 1.2em;
+  line-height: 2;
+  margin-left: 10%;
   text-align: right;
   width: 40%;
-  line-height: 2;
 }
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
+
 .profile{
-  position: relative;
   margin: 100px auto auto auto;
-}
-.bottom-cloud{
-  padding-top: 0px;
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
 }
 
 .first-img{
-  position: absolute;
-  left: 100px;
+  float: left;
+  margin-left: 8%;
 }
 .second-img{
-  position: absolute;
-  right: 100px;
-}
-.back-img{
-  left: 20px;
-  position: absolute;
+  float: right;
+  margin-right: 8%;
 }
 .contact{
   padding-top: 90px;
