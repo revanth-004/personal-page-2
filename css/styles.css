@@ -115,6 +115,11 @@ div{
   position: absolute;
   left: 56%;
 }
+.logo:hover{
+  height: 70px;
+  width: 70px;
+}
+
 @media screen and (max-width: 767px) {
   .para2{
   color: red;
