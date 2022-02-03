@@ -81,8 +81,12 @@ div{
   width: 40%;
 }
 
-.profile{
+#profile{
   margin: 100px auto auto auto;
+}
+.profilehover:hover{
+  height: 187px;
+  width : 187px%;
 }
 
 .first-img{
